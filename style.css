@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav
+{
+    min-height: 50px;
+    background: lightgreen;
+}
+header nav ul
+{
+    list-style-type: none;
+}
+header nav ul li
+{
+    cursor: pointer;
+    padding: 15px;
+    float: left;
+}
+header nav ul li:hover
+{
+    background: red;
+}
+header nav ul .float
+{
+    float: right;
+}
+.content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+}
+.content .imgContainer
+{
+    min-height: 50px;
+    max-width: 40%;
+}
+.content .imgContainer img
+{
+    height: 100%;
+    width: 100%;
+}
